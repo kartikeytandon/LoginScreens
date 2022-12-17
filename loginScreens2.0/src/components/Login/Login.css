@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginWin {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.companyLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(176, 175, 175);
+    margin-top: 8rem;
+}
+.leftWin {
+    background: linear-gradient(237.57deg, #A8C0FF -22.81%, #3B2B96 204.39%), linear-gradient(90.03deg, #A8C0FF 1.05%, #3F2B96 98.98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 4rem;
+}
+span {
+    color: #7465B6;
+}
+#mob {
+    font-size: 0.8rem;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 0.8rem;
+}
+#change {
+    font-size: 0.6rem;
+}
+.leftWin h3 {
+    margin-bottom: 8rem;
+}
+.signUp {
+    padding: 4rem;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.signUp h2 {
+    color: #7465B6;
+    text-align: center;
+}
+.mobile {
+    margin-top: 4rem;
+}
+.mobile input {
+    width: 20rem;
+    height: 2.6rem;
+    display: flex;
+    padding-left: 2.2rem;
+    border: 1px solid #DADADA;
+}
+.mobile small {
+    font-size: 0.5rem;
+}
+#signup-btn {
+    background-color: #7465B6;
+    padding: 1rem;
+    width: 12rem;
+    color: white;
+    position: relative;
+    top: 5rem;
+}
+#signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #3F2B96;
+}
+#login {
+    color: #3F2B96;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* Login */
+
+#terms {
+    font-size: 0.6rem;
+    width: fit-content;
+    margin: auto;
+}
+#login-btn {
+    margin-top: 2rem;
+    background-color: #7465B6;
+    padding: 1rem;
+    width: 12rem;
+    color: white;
+    font-weight: 700;
+}
+#or {
+    color: #7465B6;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 0.4rem;
+}
+#otp-btn {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 1rem;
+    color: #7465B6;
+    width: 12rem;
+    font-weight: 700;
+    margin-top: 0.4rem;
+}

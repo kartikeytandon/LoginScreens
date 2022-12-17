@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background: linear-gradient(90.03deg, #A8C0FF 1.05%, #3F2B96 98.98%), linear-gradient(90.03deg, #A8C0FF 1.05%, #3F2B96 98.98%);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+#companyLogo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background-color: rgb(184, 184, 184);
+}
+#sellerApp {
+    font-size: 1.5rem;
+}
+#searchBar input {
+    height: 2rem;
+    width: 20rem;
+}
+#btn {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
